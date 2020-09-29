@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Math;
 
         public class wind {
             public static void main(String[] args) {
@@ -13,10 +12,10 @@ import java.util.Math;
                 double windSpeed = in.nextDouble();
 
 
-                double windChill = 35.74 + (0.6215 * temperature) + (((0.4275 * temperature) - 35.75) * (Math.pow(windSpeed, 0.16));
+                double windChill = 35.74 + (0.6215 * temperature) + (((0.4275 * temperature) - 35.75) * (Math.pow(windSpeed, 0.16)));
 
                 System.out.println(" ");
-                System.out.printf("$%.2f", windChill);
+                System.out.printf("Wind Chill : %,.2f", windChill);
                 in.close();
             }
         }
