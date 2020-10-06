@@ -4,7 +4,7 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("Diameter : ");
+                System.out.print("Diameter : ");
                 double diameter = in.nextDouble();
 
                 double radius = diameter / 2;
