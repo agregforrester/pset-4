@@ -4,7 +4,7 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("What's your favorite city? ");
+                System.out.print("What's your favorite city? ");
                 String city = in.nextLine();
 
                 int length = city.length();
