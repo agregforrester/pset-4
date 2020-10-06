@@ -4,7 +4,7 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("Length : ");
+                System.out.print("Length : ");
                 double length = in.nextDouble();
 
                 double perimeter = length * 6;
