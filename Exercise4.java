@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-        public class conversion {
+        public class Exercise5 {
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
