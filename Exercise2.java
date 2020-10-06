@@ -4,7 +4,7 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("Inches : ");
+                System.out.print("Inches : ");
                 double input = in.nextDouble();
 
                 double miles = input / 63360;
