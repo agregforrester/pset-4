@@ -4,11 +4,11 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("Temperature : ");
+                System.out.print("Temperature : ");
                 double temperature = in.nextDouble();
                 in.nextLine();
 
-                System.out.println("Wind Speed : ");
+                System.out.print("Wind Speed : ");
                 double windSpeed = in.nextDouble();
 
 
