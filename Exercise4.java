@@ -4,7 +4,7 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("Centimeters : ");
+                System.out.print("Centimeters : ");
                 double input = in.nextDouble();
 
                 double kilometers = input / 100000;
