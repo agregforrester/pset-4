@@ -4,7 +4,7 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("Text : ");
+                System.out.print("Text : ");
                 String text = in.next();
 
                 double textLength = text.length();
