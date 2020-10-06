@@ -4,15 +4,15 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("First Name : ");
+                System.out.print("First Name : ");
                 String first = in.next();
                 in.nextLine();
 
-                System.out.println("Middle Name : ");
+                System.out.print("Middle Name : ");
                 String middle = in.next();
                 in.nextLine();
 
-                System.out.println("Last Name : ");
+                System.out.print("Last Name : ");
                 String last = in.next();
 
                 String firstSubstring = first.substring(0, 1);
