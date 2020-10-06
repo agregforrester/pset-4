@@ -4,11 +4,11 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner in = new Scanner(System.in);
 
-                System.out.println("Length : ");
+                System.out.print("Length : ");
                 double length = in.nextDouble();
                 in.nextLine();
 
-                System.out.println("Width : ");
+                System.out.print("Width : ");
                 double width = in.nextDouble();
 
                 double area = length * width;
